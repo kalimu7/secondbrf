@@ -171,6 +171,7 @@ header.sticky{
     border: none;
     border-radius: 10px;
     padding: 5px 5px;
+	margin: 10px;
     /* margin-left: 10px; */
 }
 .col1 .sdmsg{
@@ -536,7 +537,7 @@ hr{
         flex-wrap: wrap;
     }
     .col1 textarea{
-        width: 300px;
+        width: 290px;
     }
     .col1 input{
         width: 300px;
@@ -544,18 +545,25 @@ hr{
 }
 @media screen and (max-width:675px) {
     .formulaire{
-        height: 900px;
+        height: 950px;
         flex-wrap: nowrap;
         flex-direction: column;
         align-items: center;
 		
     }
+	.col2{
+		justify-content: center;
+	}
+	.col1{
+		display: grid;
+		justify-content: center;
+		
+	}
     .col2 p{
-        line-height: 20px;
+        line-height: 18px;
+		
     }
-    .col1 textarea{
-        margin-left: 8px;
-    }
+    
 	
    
 }
