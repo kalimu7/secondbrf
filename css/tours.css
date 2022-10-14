@@ -548,6 +548,11 @@ header.sticky{
         height: 4200px;
     }
 }
+@media (max-width: 399px){
+	.card{
+		margin-bottom: -10px;
+	}
+}
 /*
 @media screen and (max-width : 714px) {
     .tourscards{
